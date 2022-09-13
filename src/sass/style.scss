@@ -1,0 +1,22 @@
+@use "colors" as c;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: c.$gold;
+	font-size: 1.6rem;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
