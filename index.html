@@ -7,17 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bonsai</title>
     <script src="https://kit.fontawesome.com/ab9e08dc08.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/dist/css/style.min.css">
 </head>
 
 <body>
     <div class="wrapper">
         <nav class="nav">
-    <div class="nav__left-side"><img class="nav-logo" src="/src/img/logo.svg" alt="Logo firmy"></div>
+    <div class="nav__left-side"><img class="nav-logo" src="/dist/img/logo.svg" alt="Logo firmy"></div>
     <div class="nav__right-side">
         <ul class="nav__ul">
-            <li class="nav__ul-item"><a href="">Product</a></li>
-            <li class="nav__ul-item"><a href="">Templates</a></li>
+            <li class="nav__ul-item"><a href="">Product<i class="fa-solid fa-angle-down"></i></a></li>
+            <li class="nav__ul-item"><a href="">Templates<i class="fa-solid fa-angle-down"></i></a></li>
             <li class="nav__ul-item"><a href="">Pricing</a></li>
             <li class="nav__ul-item"><a href="">Reviews</a></li>
         </ul>
@@ -25,6 +28,27 @@
             <button class="nav__buttons-button">log in</button>
             <button class="nav__buttons-button">start free</button>
         </div>
+    </div>
+    <div class="nav__slider">
+        <div class="nav__slider-top">
+            <img class="slider-logo" src="/dist/img/logo copy.svg" alt="">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <ul class="nav__ul nav__slider-ul">
+            <li class="nav__ul-item nav__slider-ul-item"><a href="">Product<i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li class="nav__ul-item nav__slider-ul-item"><a href="">Templates<i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li class="nav__ul-item nav__slider-ul-item"><a href="">Pricing</a></li>
+            <li class="nav__ul-item nav__slider-ul-item"><a href="">Reviews</a></li>
+        </ul>
+
+
+        <div class="nav__buttons nav__slider-buttons">
+            <button class="nav__buttons-button nav__slider-button">log in</button>
+            <button class="nav__buttons-button nav__slider-button">start free</button>
+        </div>
+
     </div>
     <button class="nav__bars-btn"><i class="fa-solid fa-bars"></i></button>
 </nav>
