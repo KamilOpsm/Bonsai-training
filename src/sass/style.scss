@@ -386,42 +386,42 @@ body {
 .trusted-section {
 	padding: 0 1em;
 	color: #4c525a;
-	
+
 	&__text {
 		text-align: center;
 	}
-	
+
 	&__text-title {
 		font-weight: 600;
 	}
-	
+
 	&__text-p {
 		margin-top: 0.5em;
 		margin-bottom: 3.5em;
 		font-size: 2rem;
 		font-weight: 300;
 	}
-	
+
 	&__images {
 		display: flex;
 		flex-direction: column;
 		padding: 0 2.5em;
 	}
-	
+
 	&__images-world-box {
 		margin-bottom: 1.5em;
 	}
-	
+
 	&__img {
 		margin-bottom: 2.5em;
 	}
-	
+
 	&__images-title {
 		margin-bottom: 0.5em;
 		font-size: 1.8rem;
 		font-weight: 600;
 	}
-	
+
 	&__images-p {
 		font-weight: 300;
 		font-size: 1.7rem;
@@ -429,11 +429,55 @@ body {
 }
 // <============ COMMENT SECTION STARTS HERE ============>
 
+.comment {
+	padding: 0 1.5em;
+	color: #4c525a;
 
+	&__title {
+		margin-top: 4.5em;
+		margin-bottom: 3em;
+		font-weight: 400;
+		text-align: center;
+	}
 
+	&__boxes {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-top: 10em;
+	}
 
+	&__box {
+		position: relative;
+		padding-bottom: 2em;
+		padding-top: 5em;
+		margin-bottom: 2.5em;
+		background-color: rgb(232, 232, 232);
+	}
 
+	&__box-img {
+		.fa-solid {
+			position: absolute;
+			bottom: 0;
+			margin-left: 0.5em;
+			color: #bbe1fd;
+			font-size: 5rem;
+		}
+	}
 
+	&__box-text {
+		padding: 1.5em;
+	}
+
+	&__boxes-blockquote {
+		margin-bottom: 2em;
+		font-size: 1.8rem;
+	}
+
+	&__box-name {
+		font-weight: 700;
+	}
+}
 
 // <============ CLASS FORM JS STARTS HERE ============>
 
