@@ -383,6 +383,56 @@ body {
 
 // <============ TRUSTED SECTION STARTS HERE ============>
 
+.trusted-section {
+	padding: 0 1em;
+	color: #4c525a;
+	
+	&__text {
+		text-align: center;
+	}
+	
+	&__text-title {
+		font-weight: 600;
+	}
+	
+	&__text-p {
+		margin-top: 0.5em;
+		margin-bottom: 3.5em;
+		font-size: 2rem;
+		font-weight: 300;
+	}
+	
+	&__images {
+		display: flex;
+		flex-direction: column;
+		padding: 0 2.5em;
+	}
+	
+	&__images-world-box {
+		margin-bottom: 1.5em;
+	}
+	
+	&__img {
+		margin-bottom: 2.5em;
+	}
+	
+	&__images-title {
+		margin-bottom: 0.5em;
+		font-size: 1.8rem;
+		font-weight: 600;
+	}
+	
+	&__images-p {
+		font-weight: 300;
+		font-size: 1.7rem;
+	}
+}
+// <============ COMMENT SECTION STARTS HERE ============>
+
+
+
+
+
 
 
 // <============ CLASS FORM JS STARTS HERE ============>
