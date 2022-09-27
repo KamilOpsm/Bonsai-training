@@ -448,7 +448,7 @@ body {
 
 	&__box {
 		position: relative;
-		background-color: rgb(236, 206, 206);
+		background-color: rgb(219, 219, 219);
 		padding-top: 9em;
 		padding-bottom: 1.5em;
 		margin-bottom: 6.5em;
@@ -476,12 +476,10 @@ body {
 			color: #bbe1fd;
 			font-size: 5rem;
 		}
-
 	}
 
 	&__box-text {
-		padding-bottom: 2em;
-		padding-top: 1em;
+		padding: 1em 1.5em 2em 1.5em;
 	}
 
 	&__boxes-blockquote {
@@ -509,8 +507,41 @@ body {
 		margin: 0.5em;
 		height: 10px;
 		width: 10px;
-		background-color: #E8E8EA;
+		background-color: #e8e8ea;
 		border-radius: 50%;
+	}
+}
+
+// <============ START-FREE SECTION STARTS HERE ============>
+
+.start-free {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 3em 3em;
+	margin-top: 7em;
+	background-color: #f2faff;
+
+	&__text {
+		color: #4c525a;
+		font-size: 4rem;
+		text-align: center;
+	}
+
+	&__span {
+		color: c.$main;
+	}
+
+	&__button {
+		padding: 1.2em 2.2em;
+		background-color: c.$main;
+		color: c.$white;
+		font-size: 1.3rem;
+		font-weight: 400;
+		border-radius: 4px;
+		border: none;
+		text-transform: uppercase;
 	}
 }
 
