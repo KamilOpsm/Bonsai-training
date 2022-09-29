@@ -545,6 +545,72 @@ body {
 	}
 }
 
+// <============ FOOTER STARTS HERE ============>
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	padding: 5.5em 1em 10em 1em;
+	color: #4c525a;
+	&__box {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		margin-top: 3em;
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		a {
+			display: block;
+			margin-bottom: 1em;
+			color: #4c525a;
+			text-decoration: none;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	&__box-title {
+		margin-bottom: 1.5em;
+		font-size: 2rem;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+
+	&__box-items-lasts {
+		margin: 2em 0;
+	}
+
+	&__box-templates-title {
+		margin-bottom: 1em;
+		font-size: 1.8rem;
+		font-weight: 600;
+	}
+
+	&__box-templates-lists-items {
+		.fa-solid {
+			font-size: 1.6rem;
+			margin-left: 0.3em;
+			transform: translateY(10%);
+		}
+	}
+
+	&__box-templates-dropdown {
+		display: none;
+		margin-left: 1em;
+
+		a {
+			&:last-child {
+				margin-bottom: 1em;
+			}
+		}
+	}
+}
+
 // <============ CLASS FORM JS STARTS HERE ============>
 
 .transform-class {
